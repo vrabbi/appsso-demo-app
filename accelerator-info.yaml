@@ -1,0 +1,15 @@
+id: c0068f74-e9f8-4b80-a56b-94b7137e6220
+timestamp: 2023-11-21T10:17:34.091Z
+source: TAP-GUI
+username: scott_terasky.com
+accelerator:
+  name: appsso-starter-java
+fragments:
+  - name: build-wrapper-gradle
+  - name: tap-workload
+options:
+  bsGitBranch: main
+  projectName: appsso-java-demo
+  includeBuildToolWrapper: true
+  appssoOfferingName: demo-app-auth
+  bsGitRepository: github.com?owner=vrabbi&repo=appsso-demo-app
